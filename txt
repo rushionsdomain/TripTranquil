@@ -1,0 +1,24 @@
+## Desired Project Structure
+
+tripTranquil/
+│
+├── Pipfile
+├── Pipfile.lock
+├── README.md
+├── lib/
+│   ├── cli.py               # CLI logic and commands
+│   ├── db/
+│   │   ├── models.py         # SQLAlchemy models for database
+│   │   ├── seed.py           # Script to seed the database with sample data
+│   │   ├── __init__.py       # Initialization file for db package
+│   ├── helpers.py            # Helper functions for the CLI and logic
+│   ├── debug.py              # Optional debugging utilities
+│
+├── migrations/               # Alembic folder for database migration files
+│   ├── versions/             # Alembic migration scripts
+│   ├── env.py                # Alembic environment settings
+│   ├── alembic.ini           # Alembic configuration file
+└── tests/                    # Folder for unit tests
+    ├── test_cli.py           # Test file for CLI functionality
+    ├── test_models.py        # Test file for models and database
+    └── __init__.py           # Initialization file for tests package
