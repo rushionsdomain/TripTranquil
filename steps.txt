@@ -1,0 +1,3 @@
+remove database 
+run python app
+enjoy the cli application 
