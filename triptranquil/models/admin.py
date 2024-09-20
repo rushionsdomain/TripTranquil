@@ -1,6 +1,8 @@
-from sqlalchemy import Column, String
-from .user import User
+from sqlalchemy import Column, Integer, String
+from .base_model import Base
 
-class Admin(User):
+class Admin(Base):
     __tablename__ = 'admins'
-    admin_code = Column(String(50), nullable=False)
+    id = Column(Integer, primary_key=True)
+    username = Column(String(80), unique=True, nullable=False)
+    email = Column(String(120), unique=True, nullable=False)

@@ -1,7 +1,8 @@
-from sqlalchemy import Column, Integer, String, ForeignKey
-from .base_model import BaseModel
+from sqlalchemy import Column, Integer, String
+from .base_model import Base
 
-class User(BaseModel):
+class User(Base):
     __tablename__ = 'users'
-    email = Column(String(128), unique=True, nullable=False)
-    role = Column(String(50), default="user")
+    id = Column(Integer, primary_key=True)
+    username = Column(String(80), unique=True, nullable=False)
+    email = Column(String(120), unique=True, nullable=False)

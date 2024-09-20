@@ -1,33 +1,40 @@
 from triptranquil.session.session import get_session
 from triptranquil.models.admin import Admin
-from triptranquil.models.product import Product
 
 def admin_menu():
-    print("Welcome to the Admin CLI")
-    print("1. Add Destination")
-    print("2. Manage Bookings")
-    print("3. View Reviews")
-    print("4. Exit")
+    print("\nAdmin Menu")
+    while True:
+        print("1. View Admins")
+        print("2. Create Admin")
+        print("3. Back to Main Menu")
 
-    choice = input("Choose an option: ")
+        choice = input("Enter your choice: ")
 
-    if choice == "1":
-        add_destination()
-    elif choice == "2":
-        manage_bookings()
-    elif choice == "3":
-        view_reviews()
-    elif choice == "4":
-        print("Goodbye!")
-    else:
-        print("Invalid option")
+        if choice == '1':
+            view_admins()
+        elif choice == '2':
+            create_admin()
+        elif choice == '3':
+            break
+        else:
+            print("Invalid choice, try again.")
 
-def add_destination():
+def view_admins():
     session = get_session()
-    name = input("Enter destination name: ")
-    price = input("Enter price: ")
+    admins = session.query(Admin).all()
+    if admins:
+        for admin in admins:
+            print(f"ID: {admin.id}, Username: {admin.username}, Email: {admin.email}")
+    else:
+        print("No admins found.")
 
-    new_destination = Product(name=name, destination=name, price=price)
-    session.add(new_destination)
+def create_admin():
+    session = get_session()
+    username = input("Enter username: ")
+    email = input("Enter email: ")
+
+    new_admin = Admin(username=username, email=email)
+    session.add(new_admin)
     session.commit()
-    print("Destination added!")
+
+    print(f"Admin {username} created successfully!")
