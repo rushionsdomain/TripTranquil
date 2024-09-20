@@ -76,7 +76,7 @@ Once the application is running, follow the on-screen prompts to navigate throug
 Live Recording
 --------------
 
-Check out the live recording of the TripTranquil CLI application in action [here](file:///home/gail/Videos/Screencasts/Screencast%20from%2009-20-2024%2009:08:25%20PM.webm).
+Check out the live recording of the TripTranquil CLI application in action [here](https://drive.google.com/file/d/1MUHGl3lSaPk1AS79X_vbOhkQ0SmW5F7b/view?usp=drive_link).
 
 Conclusion
 ----------
