@@ -1,5 +1,4 @@
-Rushion
-Rushion18@gmail.com
-
-Marvin 
-Marvin77@gmail.com
+admins = [
+    {"username": "Rushion", "email": "Rushion18@gmail.com", "password": "Woof23", "is_admin": True},
+    {"username": "Marvin", "email": "Marvin77@gmail.com", "password": "Woof24", "is_admin": True},
+]

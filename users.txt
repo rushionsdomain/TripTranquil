@@ -1,35 +1,7 @@
-Venus 
-Venus36@gmail.com
-
-Joanne 
-Joanne77@gmail.com
-
-Annet 
-Annet42@gmail.com
-
-Victoria
-Vicoria09@gmail.com
-
-Bridget
-Bridget52@gmail.com
-
-Blu 
-Blu84@gmail.com
-
-Silva 
-Silva39@gmail.com
-
-Cliff
-Cliff90@gmail.com
-
-Masha
-Masha22@gmail.com
-
-Gavin
-Gavin70@gmail.com
-
-Ahmed
-Ahmed69@gmail.com
-
-David
-David66@gmail.com
+users = [
+    {"username": "Venus", "email": "Venus36@gmail.com", "password": "Meaw01"},
+    {"username": "Joanne", "email": "Joanne77@gmail.com", "password": "Meaw02"},
+    {"username": "Annet", "email": "Annet42@gmail.com", "password": "Meaw03"},
+    {"username": "Victoria", "email": "Vicoria09@gmail.com", "password": "Meaw04"},
+    {"username": "Bridget", "email": "Bridget52@gmail.com", "password": "Meaw05"},
+]

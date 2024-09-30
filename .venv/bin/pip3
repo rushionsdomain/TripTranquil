@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/home/gail/Documents/Moringa School/phase-3/tripTranquil/.venv/bin/python" "$0" "$@"
+'''exec' "/home/gail/Documents/Moringa School/phase-3/TripTranquil/.venv/bin/python3" "$0" "$@"
 ' '''
 # -*- coding: utf-8 -*-
 import re

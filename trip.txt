@@ -1,0 +1,99 @@
+Trip(
+    id=1,
+    destination="Paris, France",
+    start_date=date(2024, 4, 10),
+    end_date=date(2024, 4, 20),
+    duration=10,
+    price=1500.00,
+    description="Explore the City of Lights and its famous landmarks like the Eiffel Tower and the Louvre."
+)
+
+trip_2 = Trip(
+    id=2,
+    destination="Kyoto, Japan",
+    start_date=date(2024, 3, 15),
+    end_date=date(2024, 3, 25),
+    duration=10,
+    price=2000.00,
+    description="Visit the historic temples and experience cherry blossom season in Japan's cultural capital."
+)
+
+trip_3 = Trip(
+    id=3,
+    destination="Cairo, Egypt",
+    start_date=date(2024, 5, 1),
+    end_date=date(2024, 5, 8),
+    duration=7,
+    price=1200.00,
+    description="Discover the wonders of ancient Egypt, including the pyramids of Giza and the Sphinx."
+)
+
+trip_4 = Trip(
+    id=4,
+    destination="New York City, USA",
+    start_date=date(2024, 6, 10),
+    end_date=date(2024, 6, 17),
+    duration=7,
+    price=1800.00,
+    description="Explore the iconic landmarks of New York, from Times Square to Central Park."
+)
+
+trip_5 = Trip(
+    id=5,
+    destination="Santorini, Greece",
+    start_date=date(2024, 7, 15),
+    end_date=date(2024, 7, 25),
+    duration=10,
+    price=2200.00,
+    description="Relax on the beautiful beaches of Santorini and enjoy breathtaking sunsets over the Aegean Sea."
+)
+
+trip_6 = Trip(
+    id=6,
+    destination="Sydney, Australia",
+    start_date=date(2024, 8, 1),
+    end_date=date(2024, 8, 10),
+    duration=9,
+    price=2500.00,
+    description="Visit the Sydney Opera House, Bondi Beach, and other famous attractions down under."
+)
+
+trip_7 = Trip(
+    id=7,
+    destination="Reykjavik, Iceland",
+    start_date=date(2024, 9, 5),
+    end_date=date(2024, 9, 12),
+    duration=7,
+    price=2300.00,
+    description="Witness the Northern Lights and explore Iceland’s breathtaking glaciers and geysers."
+)
+
+trip_8 = Trip(
+    id=8,
+    destination="Rome, Italy",
+    start_date=date(2024, 10, 1),
+    end_date=date(2024, 10, 10),
+    duration=9,
+    price=1600.00,
+    description="Experience ancient history by visiting the Colosseum, the Roman Forum, and the Vatican."
+)
+
+trip_9 = Trip(
+    id=9,
+    destination="Cape Town, South Africa",
+    start_date=date(2024, 11, 15),
+    end_date=date(2024, 11, 25),
+    duration=10,
+    price=1400.00,
+    description="Enjoy scenic landscapes, Table Mountain, and vibrant culture in South Africa's coastal gem."
+)
+
+trip_10 = Trip(
+    id=10,
+    destination="Bali, Indonesia",
+    start_date=date(2024, 12, 1),
+    end_date=date(2024, 12, 12),
+    duration=11,
+    price=1700.00,
+    description="Relax in the tropical paradise of Bali, with its beautiful beaches, temples, and rice terraces."
+)
